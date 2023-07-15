@@ -22,8 +22,8 @@ const Portfolio = () => {
     {
       id: 3,
       src: blog,
-      demoLink: "https://example.com/demo", // Add your demo link here
-      codeLink: "https://example.com/code", // Add your code link here
+      demoLink: "https://drive.google.com/file/d/1AP1wTuEqvXUCUlSSawd1GbF7VQOeCu_f/view?usp=sharing", // Add your demo link here
+      codeLink: "https://github.com/siddofficial13/SoulScribbles", // Add your code link here
       demoName: "SoulScribble",
     },
   ];
@@ -49,13 +49,13 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-md duration-300 hover:scale-105"
               />
-              <div className="flex items-center justify-center mt-4">
+              <div className="flex items-center justify-center">
                 <a
                   href={demoLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-1/2 px-6 py-3 m-4 duration-300 hover:scale-105 text-lg font-semibold 
-                  bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 rounded-md pl-2 "
+                  className="w-1/2 px-6 py-3 m-4 duration-300 hover:scale-105 text-md font-semibold 
+                  bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 rounded-md "
                 >
                   {demoName}
                 </a>
